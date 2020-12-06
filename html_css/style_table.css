@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 10px 0 0;
+    margin: 0;
+}
+td {
+    width: 33%;
+    padding: 10px;
+    background-color: #ccc;
+}
+td.empty {
+    background-color: #ffffff;
+}
+table {
+    width: 100%;
+}
+hr {
+    width: 70%;
+}
