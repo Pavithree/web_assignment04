@@ -1,0 +1,173 @@
+% Enable warnings about problematic code
+\RequirePackage[l2tabu, orthodox]{nag}
+
+\documentclass{resources/WeSTassignment}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{changebar}
+\usepackage{latexsym}
+\usepackage{stmaryrd}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{wasysym}
+\usepackage[export]{adjustbox}
+\usepackage[thinlines]{easytable}
+\usepackage{framed}
+\usepackage{color}
+\usepackage{footnote}
+\usepackage{listings}
+\usepackage{framed}
+
+% The lecture title, e.g. "Web Information Retrieval".
+\lecture{Introduction to Web Science}
+% The names of the lecturer and the instructor(s)
+\author{%
+  PD Dr. Matthias~Thimm\\{\normalsize\mailto{thimm@uni-koblenz.de}} \and
+  Ipek~Baris Schlicht\\{\normalsize\mailto{ibaris@uni-koblenz.de}} \and
+  Kenneth Skiba\\{\normalsize\mailto{kennethskiba@uni-koblenz.de}}
+}
+% Assignment number.
+\assignmentnumber{4}
+% Institute of lecture.
+\institute{%
+  Institute of Web Science and Technologies\\%
+  Department of Computer Science\\%
+  University of Koblenz-Landau%
+}
+% Date until students should submit their solutions.
+\datesubmission{08.12.2020, CEST 23:59}
+% Date on which the assignments will be discussed in the tutorial.
+
+
+\begin{document}
+\maketitle
+
+\section{XML \hfill{26 Points} \label{xml}}
+Consider the following XML document:
+
+\definecolor{javared}{rgb}{0.6,0,0} % for strings
+\definecolor{javagreen}{rgb}{0.25,0.5,0.35} % comments
+\definecolor{javapurple}{rgb}{0.5,0,0.35} % keywords
+\definecolor{javadocblue}{rgb}{0.25,0.35,0.75} % javadoc
+
+\lstset{language=XML,
+basicstyle=\ttfamily,
+keywordstyle=\color{javapurple}\bfseries,
+stringstyle=\color{javared},
+commentstyle=\color{javagreen},
+morecomment=[s][\color{javadocblue}]{/**}{*/},
+numbers=left,
+numberstyle=\tiny\color{black},
+stepnumber=1,
+numbersep=8pt,
+tabsize=4,
+showspaces=false,
+showstringspaces=false
+}
+\begin{lstlisting}
+?xml version="1.1" encoding="UTF-8" ?>
+<book>
+	<author><publisher>Macmillan</author></publisher>
+	<title>Alice Adventures in Wonderland</title>
+	<year>1865</year>
+</book>
+\end{lstlisting}
+
+
+\subsection{\hfill }
+\textbf{Solution:} \\
+The above xml document is not valid for the below mentioned reasons: \\
+\begin{enumerate}
+\item In the declaration line, \textbf{'<'} is missing. The correct way is \\ <?xml version="1.1" encoding="UTF-8" ?>
+\item The element tags for author and publisher are not closed in order. The correct order should be \\
+<author><publisher>Macmillan</publisher></author>
+\end{enumerate} 
+
+\subsection{Well formed XML}
+Consider the following information about the best-selling individual books\footnote{Based on \href{https://en.wikipedia.org/wiki/List\_of\_best-selling\_books}{https://en.wikipedia.org/wiki/List\_of\_best-selling\_books}}: 
+
+\begin{table}[h]
+\scalebox{0.60}{
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+\textbf{Name} & \textbf{Author(s)}     & \textbf{Original language} & \textbf{First published} & \textbf{Approximate sales} & \textbf{Genre} \\ \hline
+The Communist Manifesto & Karl Marx and Friedrich Engels & German & 1848  & > 500 million & Political philosophy\\ \hline
+A Tale of Two Cities& Charles Dickens & English & 1859  & 200 million & Historical fiction\\ \hline
+Harry Potter and the Philopher's Stone & J. K. Rowling& English & 1997  & 120 million & Fantasy, mystery\\ \hline
+The Lion, the Witch and the Wardrobe & C.S. Lewis & English & 1950  & 85 million & Fantasy\\ \hline
+The Adventures of Pinocchio & Carlo Collodi & Italian & 1881  & > 80 million & Fantasy\\ \hline
+\end{tabular}}
+\end{table}
+
+Your task is to encode the table above into a well formed XML document. 
+
+
+\section{HTML and CSS\hfill{27 points}\label{html}}
+The aim of this task to learn and practice the basics of HTML and CSS. You are required to implement a website that presents your resume. The layout of the website as seen Figure \ref{fig:my_label}. The most left section is \textbf{Experiences}, the middle is the section for \textbf{Education} and the most right section is \textbf{Skills} followed by \textbf{References}.
+
+Perform the following steps:
+\begin{enumerate}
+    \item Create a HTML file called \texttt{index.html}, and a CSS file called \texttt{style\_display}. In CSS, define the items referring the sections and header and use only \texttt{inline-block} for positioning the items.
+    \item Create a CSS file called \texttt{style\_float.css}. In CSS, define the items referring the sections and header and use only \texttt{float} for positioning. Do not alter the contents in \texttt{index.html}.
+    \item Create a HTML file called \texttt{index\_table.html}, and a CSS file called \texttt{style\_table.css}. This time, you are supposed to implement the layout by using tables in HTML. However, for styling the cells and the properties of the table, you need to edit the \texttt{style\_table.css}.
+\end{enumerate}
+
+Three steps that you will implement should output same layout and content. However, small margins between the results could be neglected. The background color of the sections is \texttt{\#ccc}.
+
+For this task, \textcolor{red}{don't use frameworks such as bootstrap.} You are only allowed to use standard HTML and CSS items. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.4]{html.png}
+    \caption{The website page you will implement}
+    \label{fig:my_label}
+\end{figure}
+
+\section{Dynamic Web Content \hfill{27 points}}
+You are provided with \texttt{simpleapp.zip} that contains a simple HTTP web server that we
+have designed for you. It has a simple HTTP registration page (\texttt{localhost:5000/form})
+that asks you to enter the first name and email ID to register.
+
+
+Your task is to write a python script \texttt{client.py} that automates the process of registering.
+The \texttt{simpleapp.zip} contains \texttt{contacts.txt} and \texttt{alternate\_contacts.txt} that have the different names and email IDs that you need to register automatically through your script.
+
+
+In the the template folder, you will find an html form whose actions you need to automate
+through your script. The script should look for error messages if the entry that you are
+trying to register is already in the system or not. If no error message, your entry gets
+stored in the server. The script should save all the responses from the server into lists and count the number of successful and unsuccessful attempts to register. 
+
+We give the following code snippet as starting code. When you execute this code, you will have a compiled errors because it is incomplete. Please replace \texttt{"TODO"} with your codes and implement the methods in the \texttt{\_\_main\_\_}. First you need to run the client script for \texttt{contacts.txt}, and then after restarting your server you need to run it for \texttt{alternate\_contacts.txt}. You should get the following error message from the server:
+
+\texttt{sqlite3.Warning: You can only execute one statement at a time.}
+
+Please briefly explain, what we try to achieve here and what could be the fix for preventing such message from the server side.
+
+ \begin{lstlisting}
+ if __name__ == '__main__':
+    URL = "TODO"
+    fname = sys.argv[0]
+    contacts = read_file(fname)
+    "TODO"
+    for contact in contacts:
+        status, text = register(contact=contact, url=URL)
+        print(f"Status code from the app {status}")
+        print(f"Text is {text}")
+        list_size, contains_success_msg = parse_response(text)
+        "TODO"
+    total_request = len(contacts)
+    assert error_count + success_count == total_request
+    plot_timeline(list_sizes, output_file="list_size_timeline.png")
+    plot_bar(success_count, error_count, output_file="results.png")
+ \end{lstlisting}
+
+You will need to install the required libraries by using command \texttt{pip install -r requirements.txt}. Then, you will need to run \texttt{server\_start.sh} that starts the server. Please keep in mind that when you will test your code, you need to refresh the database and restart your server by running \texttt{server\_start.sh}. 
+
+You \textbf{are allowed} to use the following libraries for your implementations: \textcolor{red}{\texttt{matplotlib}}, \textcolor{red}{\texttt{regex}}, \textcolor{red}{\texttt{requests}},
+\textcolor{red}{\texttt{sys}}.
+\end{document}
