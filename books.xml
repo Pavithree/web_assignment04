@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book>
+		<Name>The Communist Manifesto</Name>
+		<Authors>Karl Marx and Friedrich Engels</Authors>
+		<OriginalLanguage>German</OriginalLanguage>
+		<FirstPublished>1848</FirstPublished>
+		<ApproximateSales>> 500 million</ApproximateSales>
+		<Genre>Political philosophy</Genre>
+	</book>
+	<book>
+		<Name>A Tale of Two Cities</Name>
+		<Authors>Charles Dickens</Authors>
+		<OriginalLanguage>English</OriginalLanguage>
+		<FirstPublished>1859</FirstPublished>
+		<ApproximateSales>200 million</ApproximateSales>
+		<Genre>Historical fiction</Genre>
+	</book>
+	<book>
+		<Name>Harry Potter and the Philopher’s Stone</Name>
+		<Authors>J. K. Rowling</Authors>
+		<OriginalLanguage>English</OriginalLanguage>
+		<FirstPublished>1997</FirstPublished>
+		<ApproximateSales>120 million</ApproximateSales>
+		<Genre>Fantasy, mystery</Genre>
+	</book>
+	<book>
+		<Name>The Lion, the Witch and the Wardrobe</Name>
+		<Authors>C.S. Lewis</Authors>
+		<OriginalLanguage>English</OriginalLanguage>
+		<FirstPublished>1950</FirstPublished>
+		<ApproximateSales>85 million</ApproximateSales>
+		<Genre>Fantasy</Genre>
+	</book>
+	<book>
+		<Name>The Adventures of Pinocchio</Name>
+		<Authors>Carlo Collodi</Authors>
+		<OriginalLanguage>Italian</OriginalLanguage>
+		<FirstPublished>1881</FirstPublished>
+		<ApproximateSales>> 80 million</ApproximateSales>
+		<Genre>Fantasy</Genre>
+	</book>
+</books>
