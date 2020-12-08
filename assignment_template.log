@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  6 DEC 2020 17:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.12)  8 DEC 2020 13:36
 entering extended mode
 **./assignment_template.tex
 (assignment_template.tex
@@ -1600,46 +1600,100 @@ Package pdftex.def Info: resources/logo_west_small.png  used on input line 130.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 130.
 
-LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-152.
+<resources/finalContactsServer.JPG, id=56, 1106.33325pt x 289.08pt>
+File: resources/finalContactsServer.JPG Graphic file (type jpg)
+<use resources/finalContactsServer.JPG>
+Package pdftex.def Info: resources/finalContactsServer.JPG  used on input line 
+134.
+(pdftex.def)             Requested size: 442.52547pt x 115.62994pt.
 
-("C:\Users\Pavithre B Shetty\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cm
-tt.fd"
-File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \hbox (22.73065pt too wide) in paragraph at lines 161--162
-[][][][][][][][][][][][][][][][][] 
+Overfull \hbox (24.26991pt too wide) in paragraph at lines 134--135
+ [][] 
  []
 
+<resources/finalContactstimeline.JPG, id=57, 1107.53775pt x 417.35925pt>
+File: resources/finalContactstimeline.JPG Graphic file (type jpg)
+<use resources/finalContactstimeline.JPG>
+Package pdftex.def Info: resources/finalContactstimeline.JPG  used on input lin
+e 141.
+(pdftex.def)             Requested size: 443.00725pt x 166.94073pt.
 
-Overfull \hbox (56.68115pt too wide) in paragraph at lines 165--166
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (24.7517pt too wide) in paragraph at lines 141--142
+ [][] 
  []
 
+<resources/finalContactBarPlot.JPG, id=58, 1103.92426pt x 469.15276pt>
+File: resources/finalContactBarPlot.JPG Graphic file (type jpg)
+<use resources/finalContactBarPlot.JPG>
+Package pdftex.def Info: resources/finalContactBarPlot.JPG  used on input line 
+148.
+(pdftex.def)             Requested size: 441.56189pt x 187.65776pt.
 
-Overfull \hbox (56.68115pt too wide) in paragraph at lines 166--167
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+Overfull \hbox (23.30634pt too wide) in paragraph at lines 148--149
+ [][] 
  []
 
+<resources/finalAlternateServer.JPG, id=59, 1129.21875pt x 331.83975pt>
+File: resources/finalAlternateServer.JPG Graphic file (type jpg)
+<use resources/finalAlternateServer.JPG>
+Package pdftex.def Info: resources/finalAlternateServer.JPG  used on input line
+ 155.
+(pdftex.def)             Requested size: 451.6795pt x 132.73355pt.
+
+Overfull \hbox (33.42395pt too wide) in paragraph at lines 155--156
+ [][] 
+ []
+
+<resources/finalAlternateTimeline.JPG, id=60, 1138.85475pt x 444.4605pt>
+File: resources/finalAlternateTimeline.JPG Graphic file (type jpg)
+<use resources/finalAlternateTimeline.JPG>
+Package pdftex.def Info: resources/finalAlternateTimeline.JPG  used on input li
+ne 161.
+(pdftex.def)             Requested size: 455.53383pt x 177.78105pt.
+
+Overfull \hbox (37.27827pt too wide) in paragraph at lines 161--162
+ [][] 
+ []
+
+<resources/finalAlternateBarPlot.JPG, id=61, 1154.51324pt x 454.69875pt>
+File: resources/finalAlternateBarPlot.JPG Graphic file (type jpg)
+<use resources/finalAlternateBarPlot.JPG>
+Package pdftex.def Info: resources/finalAlternateBarPlot.JPG  used on input lin
+e 167.
+(pdftex.def)             Requested size: 461.79712pt x 181.87627pt.
+
+Overfull \hbox (43.54156pt too wide) in paragraph at lines 167--168
+ [][] 
+ []
+
+<resources/finalAlternateServerError.JPG, id=62, 452.28975pt x 502.87875pt>
+File: resources/finalAlternateServerError.JPG Graphic file (type jpg)
+<use resources/finalAlternateServerError.JPG>
+Package pdftex.def Info: resources/finalAlternateServerError.JPG  used on input
+ line 173.
+(pdftex.def)             Requested size: 180.91269pt x 201.14793pt.
 File: resources/logo_west_small.png Graphic file (type png)
 <use resources/logo_west_small.png>
-Package pdftex.def Info: resources/logo_west_small.png  used on input line 173.
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 186.
 
 (pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
 [4
 
-]
+ <./resources/finalContactsServer.JPG> <./resources/finalContactstimeline.JPG>]
 File: resources/logo_west_small.png Graphic file (type png)
 <use resources/logo_west_small.png>
-Package pdftex.def Info: resources/logo_west_small.png  used on input line 173.
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 186.
 
 (pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
- [5]
+ [5 <./resources/finalContactBarPlot.JPG> <./resources/finalAlternateServer.JPG
+> <./resources/finalAlternateTimeline.JPG>]
+File: resources/logo_west_small.png Graphic file (type png)
+<use resources/logo_west_small.png>
+Package pdftex.def Info: resources/logo_west_small.png  used on input line 186.
+
+(pdftex.def)             Requested size: 51.21504pt x 10.63553pt.
+ [6 <./resources/finalAlternateBarPlot.JPG> <./resources/finalAlternateServerEr
+ror.JPG>]
 
 Package nag Warning: 1 complaints in total.
 
@@ -1660,32 +1714,30 @@ Package logreq Info: Writing requests to 'assignment_template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30137 strings out of 479799
- 535532 string characters out of 2863984
- 1446556 words of memory out of 3000000
- 46610 multiletter control sequences out of 15000+200000
- 555851 words of font info for 109 fonts, out of 3000000 for 9000
+ 30164 strings out of 479799
+ 536912 string characters out of 2863984
+ 1437219 words of memory out of 3000000
+ 46645 multiletter control sequences out of 15000+200000
+ 555364 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 119i,15n,124p,10638b,1356s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 119i,15n,124p,10638b,1210s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-
-super/cm-super-ts1.enc}{C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTe
-X/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Users/Pavithre B Shetty/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/Pavith
-re B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.
+super/cm-super-t1.enc}<C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/cm-super/sfbx1095.pfb><C:/Users/Pavithre B Shetty/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/Pavithr
+e B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0800.p
+fb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/cm-super/sfrm0900.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Pavithre B Shetty/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/Pavith
+re B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx1200.
 pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/cm-super/sfrm0800.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/cm-super/sfrm0900.pfb><C:/Users/Pavithre B Shetty/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Pavit
-hre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440
-.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/cm-super/sfsx1200.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/cm-super/sfsx1440.pfb><C:/Users/Pavithre B Shetty/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/Pavi
-thre B Shetty/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt109
-5.pfb>
-Output written on assignment_template.pdf (5 pages, 367058 bytes).
+c/cm-super/sfsx1440.pfb><C:/Users/Pavithre B Shetty/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/cm-super/sfsx2074.pfb><C:/Users/Pavithre B Shetty/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on assignment_template.pdf (6 pages, 1541817 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 20019 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 19542 words of extra memory for PDF output out of 20736 (max. 10000000)
 
