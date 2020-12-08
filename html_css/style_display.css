@@ -2,14 +2,32 @@ section {
     width: 31.7%;
     background-color: #ccc;
     padding: 10px;
-    margin-right: 5px;
     display: inline-block;
     vertical-align: top;
 }
 section:nth-last-child(1) {
-    margin-top: 5px;
-    left: 66.8%;
     position: relative;
+}
+.second-row section {
+    margin-top: 5px;
+    left: 64.5%;
+}
+@media screen and (min-width: 400px) {
+  section {
+    width: 27.86%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 29.86%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    width: 30.86%;
+  }
 }
 h1 {
     text-align: center;

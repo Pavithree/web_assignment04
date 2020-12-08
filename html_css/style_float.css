@@ -8,7 +8,58 @@ section {
 }
 section:nth-last-child(1) {
     float: right;
+}
+section:nth-last-child(2) {
+    margin-left: 1.5%;
+}
+.second-row section {
     margin-top: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  section {
+    width: 27.86%;
+  }
+    section:nth-last-child(2) {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 29.86%;
+  }
+    section:nth-last-child(2) {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width: 815px) {
+    section:nth-last-child(2) {
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    width: 29.86%;
+  }
+    section:nth-last-child(2) {
+        margin-left: 2.5%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+  section {
+    width: 30.86%;
+  }
+    section:nth-last-child(2) {
+        margin-left: 1.5%;
+    }
+}
+.container {
+    max-width: 100%;
+    margin: 0px auto;
 }
 
 h1 {
