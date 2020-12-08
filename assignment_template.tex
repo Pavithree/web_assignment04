@@ -21,6 +21,9 @@
 \usepackage{footnote}
 \usepackage{listings}
 \usepackage{framed}
+\usepackage{tikz}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 % The lecture title, e.g. "Web Information Retrieval".
 \lecture{Introduction to Web Science}
@@ -45,6 +48,12 @@
 
 \begin{document}
 \maketitle
+
+\centering \textbf{Team:} Bravo\\
+\centering \textbf{Members:}\\
+\centering  Gaurav Kumar (220200656)\\
+\centering  Pavithree Shetty (220200661)\\
+\centering  Nisha Sharma (220202359)\\
 
 \section{XML \hfill{26 Points} \label{xml}}
 Consider the following XML document:
@@ -105,6 +114,12 @@ The Adventures of Pinocchio & Carlo Collodi & Italian & 1881  & > 80 million & F
 
 Your task is to encode the table above into a well formed XML document. 
 
+\begin{figure}[h]
+   			\centering
+   			\includegraphics[scale=1.0]{resources/booksXml.PNG}
+   			\caption{Output : XML for Above table}
+   			\label{fig: BooksXml}
+\end{figure}
 
 \section{HTML and CSS\hfill{27 points}\label{html}}
 The aim of this task to learn and practice the basics of HTML and CSS. You are required to implement a website that presents your resume. The layout of the website as seen Figure \ref{fig:my_label}. The most left section is \textbf{Experiences}, the middle is the section for \textbf{Education} and the most right section is \textbf{Skills} followed by \textbf{References}.
